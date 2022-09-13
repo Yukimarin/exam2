@@ -1,0 +1,132 @@
+*{
+    padding:0;
+    box-sizing: 0;
+    margin: 0;
+}
+
+.heading {
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 80%;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading .picture img{
+        border-radius: 50%;
+}
+
+.bottom {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.subBottom .logo img{
+    margin-left: 35%;
+}
+
+.subBottom .search{
+    display: flex;
+ margin-left: 30%;
+    position: relative;
+}
+
+.subBottom .search .searchBox{
+    width: 550px;
+    border-radius: 20px;
+    height: 40px;
+    padding-left: 50px;
+    border: none;
+    box-shadow: -1px 2px 12px 4px rgba(153,143,143,0.57);
+-webkit-box-shadow: -1px 2px 12px 4px rgba(153,143,143,0.57);
+-moz-box-shadow: -1px 2px 12px 4px rgba(153,143,143,0.57);
+}
+
+.subBottom .search .iconsearch{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 11px;
+    font-size: medium;
+}
+
+.subBottom .search .micro{
+    position: absolute;
+   top:10px;
+   left: 520px;
+    font-size: medium;
+    border: none;
+    background-color: white;
+}
+
+.bottom .sugesstion{
+    width: 500px;
+    margin-left: 31%;
+    list-style: none;
+    box-shadow: -1px 2px 12px 4px rgba(153,143,143,0.57);
+-webkit-box-shadow: -1px 2px 12px 4px rgba(153,143,143,0.57);
+-moz-box-shadow: -1px 2px 12px 4px rgba(153,143,143,0.57);
+}
+
+.sugesstion li {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    margin-top: 2px;
+    padding-top: 5px;
+    border-bottom: 1px solid#F5F5F5;
+    cursor: pointer;
+}
+
+.sugesstion li:hover{
+    background-color: #f7d7d7;
+}
+
+.sugesstion .thumbnail {
+    width: 45px;
+    height: 45px;
+}
+
+.sugesstion .thumbnail img {
+    width: 100%;
+    height: 100%;
+}
+
+.sugesstion .text{
+    margin-left: 10px;
+}
+
+.sugesstion .title{
+    font-weight: bold;
+}
+
+.sugesstion .description{
+    color: #ACACAE;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.footer{
+    width: 500px;
+    height: 200px;
+    margin-left: 32%;
+    margin-top: 40px;
+}
+
+.footer img{
+    width: 100%;
+    height: 100%;
+}
+
+.btnCus{
+    background-color: white !important;
+    color:#1A73E8!important;
+    box-shadow: -1px 2px 12px 4px rgba(153,143,143,0.57);
+-webkit-box-shadow: -1px 2px 12px 4px rgba(153,143,143,0.57);
+-moz-box-shadow: -1px 2px 12px 4px rgba(153,143,143,0.57);
+border: none !important;
+border-radius: 20px !important;
+float: right!important;
+margin-right: 20px!important;
+}
+
